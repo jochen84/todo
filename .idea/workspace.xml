@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d951bc78-749b-43e5-921b-7c5aaaefedd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SE/EC/Johan/data/PersonSequencer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SE/EC/Johan/data/TodoSequencer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SE/EC/Johan/data/PersonSequencerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SE/EC/Johan/data/TodoSequencerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SE/EC/Johan/data/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SE/EC/Johan/data/TodoItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SE/EC/Johan/data/PeopleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SE/EC/Johan/model/TodoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SE/EC/Johan/model/TodoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SE/EC/Johan/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SE/EC/Johan/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SE/EC/Johan/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SE/EC/Johan/App.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +29,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PopulateEarth" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../doit-Eriks" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,8 +44,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoSequencerTest.reset">
-    <configuration name="PersonSequencerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PeopleTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SE.EC.Johan.App" />
+      <module name="todo_it" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SE.EC.Johan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeopleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todo_it" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +67,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SE.EC.Johan.data" />
-      <option name="MAIN_CLASS_NAME" value="SE.EC.Johan.data.PersonSequencerTest" />
+      <option name="MAIN_CLASS_NAME" value="SE.EC.Johan.data.PeopleTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeopleTest.addToArray_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo_it" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SE.EC.Johan.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SE.EC.Johan.data" />
+      <option name="MAIN_CLASS_NAME" value="SE.EC.Johan.data.PeopleTest" />
+      <option name="METHOD_NAME" value="addToArray_test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,22 +100,6 @@
       <option name="PACKAGE_NAME" value="SE.EC.Johan.data" />
       <option name="MAIN_CLASS_NAME" value="SE.EC.Johan.data.PersonSequencerTest" />
       <option name="METHOD_NAME" value="test_nextPersonId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonSequencerTest.test_resetPersonId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="todo_it" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SE.EC.Johan.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SE.EC.Johan.data" />
-      <option name="MAIN_CLASS_NAME" value="SE.EC.Johan.data.PersonSequencerTest" />
-      <option name="METHOD_NAME" value="test_resetPersonId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,29 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoTest.test_SetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="todo_it" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SE.EC.Johan.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SE.EC.Johan.model" />
-      <option name="MAIN_CLASS_NAME" value="SE.EC.Johan.model.TodoTest" />
-      <option name="METHOD_NAME" value="test_SetDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PeopleTest" />
+        <item itemvalue="JUnit.PeopleTest.addToArray_test" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TodoSequencerTest.reset" />
         <item itemvalue="JUnit.PersonSequencerTest.test_nextPersonId" />
-        <item itemvalue="JUnit.PersonSequencerTest.test_resetPersonId" />
-        <item itemvalue="JUnit.PersonSequencerTest" />
-        <item itemvalue="JUnit.TodoTest.test_SetDescription" />
       </list>
     </recent_temporary>
   </component>
